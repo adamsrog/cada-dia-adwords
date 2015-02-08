@@ -1,34 +1,65 @@
 <div class="container">
 	<h1>AdWords Preview</h1>
-	<form>
+	<div class="container-fluid">
+		<div class="row">
 
-		<div class="form-group">
-			<div class="input-group input-group-sm">
-				{{input type="text" class="form-control" placeholder="Headline" value=headline}}
-				<div class="input-group-addon">{{headlineCharsLeft}} Characters Left</div>
-			</div>
-		</div>
+			<div class="col-md-6">
+				<form>
+					<div class="form-group">
+						<div class="input-group input-group-sm">
+							{{input type="text" class="form-control" placeholder="Headline" value=headline}}
+							<div class="input-group-addon">{{headlineCharsLeft}} Characters Left</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group input-group-sm">
+							{{input type="text" class="form-control" placeholder="Line 1" value=line1}}
+							<div class="input-group-addon">{{line1CharsLeft}} Characters Left</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group input-group-sm">
+							{{input type="text" class="form-control" placeholder="Line 2" value=line2}}
+							<div class="input-group-addon">{{line2CharsLeft}} Characters Left</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group input-group-sm">
+							{{input type="text" class="form-control" placeholder="Display URL" value=displayUrl}}
+							<div class="input-group-addon">{{urlCharsLeft}} Characters Left</div>
+						</div>
+					</div>
+				</form>
+			</div> {{!-- /.col-md-6 --}}
 
-		<div class="form-group">
-			<div class="input-group input-group-sm">
-				{{input type="text" class="form-control" placeholder="Line 1" value=line1}}
-				<div class="input-group-addon">{{line1CharsLeft}} Characters Left</div>
-			</div>
-		</div>
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Site AdWords Preview</h3>
+					</div>
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
 
-		<div class="form-group">
-			<div class="input-group input-group-sm">
-				{{input type="text" class="form-control" placeholder="Line 2" value=line2}}
-				<div class="input-group-addon">{{line2CharsLeft}} Characters Left</div>
-			</div>
-		</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Central AdWords Preview</h3>
+					</div>
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
 
-		<div class="form-group">
-			<div class="input-group input-group-sm">
-				{{input type="text" class="form-control" placeholder="Display URL" value=displayUrl}}
-				<div class="input-group-addon">{{urlCharsLeft}} Characters Left</div>
-			</div>
-		</div>
-
-	</form>
-</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Mobile AdWords Preview</h3>
+					</div>
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
+			</div> {{!-- /.col-md-6 --}}
+		</div> {{!-- /.row --}}
+	</div> {{!-- /.container-fluid --}}
+</div> {{!-- /.container --}}
