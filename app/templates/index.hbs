@@ -35,7 +35,7 @@
 			<div class="col-md-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title">Site AdWords Preview</h3>
+						<h3 class="panel-title">Preview</h3>
 					</div>
 					<div class="panel-body">
 					{{#if headline}}
@@ -43,7 +43,7 @@
 							<p class="ad sidead">
 								<span id="sidead-adwords-ad" class="adwords adwordsAds">Ads</span>
 								<span id="sidead-adwords-headline" class="adwords adwordsHeadline">{{headline}}</span>
-								<span id="sidead-adwords-displayurl" class="adwords adwordsUrl">{{#if displayUrl}}www.{{displayUrl}}{{/if}}</span>
+								<span id="sidead-adwords-displayurl" class="adwords adwordsUrl">{{displayUrl}}</span>
 								<span id="sidead-adwords-line1" class="adwords adwordsLine">{{line1}}</span>
 								<span id="sidead-adwords-line2" class="adwords adwordsLine">{{line2}}</span>
 							</p>
@@ -53,8 +53,9 @@
 
 						<div class="ad-wrapper">
 							<p class="ad topad">
+								<span id="topad1-adwords-ad" class="adwords adwordsAd">Ad</span>
 								<span id="topad1-adwords-headline" class="adwords adwordsHeadline">{{headline}}</span>
-								<span id="topad1-adwords-displayurl" class="adwords adwordsUrl">{{#if displayUrl}}www.{{displayUrl}}{{/if}}</span>
+								<span id="topad1-adwords-displayurl" class="adwords adwordsUrl">{{displayUrl}}</span>
 								<span id="topad1-adwords-line1" class="adwords adwordsLine">{{line1}}</span>
 								<span id="topad1-adwords-line2" class="adwords adwordsLine">{{line2}}</span>
 							</p>
@@ -64,12 +65,39 @@
 
 						<div class="ad-wrapper">
 							<p class="ad topad">
+								<span id="topad2-adwords-ad" class="adwords adwordsAd">Ad</span>
 								<span id="topad2-adwords-headline" class="adwords adwordsHeadline">{{headline}} | {{displayUrl}}</span>
-								<span id="topad2-adwords-displayurl" class="adwords adwordsUrl">{{#if displayUrl}}www.{{displayUrl}}{{/if}}</span>
+								<span id="topad2-adwords-displayurl" class="adwords adwordsUrl">{{displayUrl}}</span>
 								<span id="topad2-adwords-line1" class="adwords adwordsLine">{{line1}}</span>
 								<span id="topad2-adwords-line2" class="adwords adwordsLine">{{line2}}</span>
 							</p>
 						</div>
+
+						<hr>
+
+						<div class="ad-wrapper">
+							<p class="ad topad">
+								<span id="topad3-adwords-ad" class="adwords adwordsAd">Ad</span>
+								<span id="topad3-adwords-headline" class="adwords adwordsHeadline">{{headline}} - {{line1}}</span>
+								<span id="topad3-adwords-displayurl" class="adwords adwordsUrl">{{displayUrl}}</span>
+								<span id="topad3-adwords-line1" class="adwords adwordsLine">{{line1}}</span>
+								<span id="topad3-adwords-line2" class="adwords adwordsLine">{{line2}}</span>
+							</p>
+						</div>
+
+						<hr>
+
+						<div class="ad-wrapper">
+							<p class="ad topad">
+								<span id="topad4-adwords-ad" class="adwords adwordsAd">Ad</span>
+								<span id="topad4-adwords-headline" class="adwords adwordsHeadline">{{headline}} - {{line1}} | {{displayUrl}}</span>
+								<span id="topad4-adwords-displayurl" class="adwords adwordsUrl">{{displayUrl}}</span>
+								<span id="topad4-adwords-line1" class="adwords adwordsLine">{{line1}}</span>
+								<span id="topad4-adwords-line2" class="adwords adwordsLine">{{line2}}</span>
+							</p>
+						</div>
+
+
 					{{/if}}
 					</div>
 				</div>
