@@ -44,4 +44,9 @@ span.adwordsHeadline{font-size:12px;line-height:14.4px;margin-bottom:1px;margin-
 span.adwordsLine{display:inline}.mobilead
 span.adwordsLine{display:inline;font-size:10px;line-height:12px}span.adwordsUrl{color:#0E774A;margin-bottom:2px}.mobilead
 span.adwordsUrl{font-size:11px;line-height:13.2px;margin-top:1px}a#topads-more-hide{display:none}a#mobileads-hide{display:none}p.ad-error{color:#F00}p.adwords-heading
-span{color:#FFF;font-size:13px;line-height:1.6}a,a:link,a:visited{color:#000;text-decoration:underline}a:hover,a:active,a:focus{text-decoration:none}body.first a,
+span{color:#FFF;font-size:13px;line-height:1.6}a,a:link,a:visited{color:#000;text-decoration:underline}a:hover,a:active,a:focus{text-decoration:none}
+.mobile-wrapper {
+	background: #FFF;
+	position: relative;
+	width: 241px;
+}
