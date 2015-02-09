@@ -1,6 +1,6 @@
 # Cada-Dia Adwords Preview Generator
 
-* [http://adwords.rogerada.ms](adwords.rogerada.ms)
+* [http://adwords.rogerada.ms](http://adwords.rogerada.ms)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
